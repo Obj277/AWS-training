@@ -1,1 +1,8 @@
 language: node_js
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAJNX7QBD52SNCY2QQ
+  secret_access_key: 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
+  region: "Asia Pacific (Seoul)"
+  app: "Pikachu"
+  env: "Pikachu-env"

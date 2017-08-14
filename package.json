@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "node test.js"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Zao1214/im04-AWS-training/issues"
   },
-  "homepage": "https://github.com/Zao1214/im04-AWS-training#readme"
+  "homepage": "https://github.com/Zao1214/im04-AWS-training#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
